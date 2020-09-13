@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  body {
+    background-image: url("../img/pattern.jpg");
+  }
+  
+  li,
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  #logo {
+    cursor: pointer;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 10px;
+  }
+  
+  section {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    padding: 30px 0;
+    background-color: #ffffff;
+    width: 70%;
+    min-height: 85vh;
+  }
+  
+  section h1 {
+    text-align: center;
+  }
+  
+  #film-list {
+    padding: 20px 30px;
+  }
+  
+  #film-list div {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wrap {
+    border: 1px solid #000000;
+    padding: 30px;
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .wrap ol li {
+    font-weight: normal;
+  }
+  
+  .table-movie {
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table-movie th,
+  .table-movie td {
+    padding: 5px 20px;
+    border: 1px solid #000000;
+  }
+  
+  .form-movie {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+  }
+  
+  .form-movie h1 {
+    margin-bottom: 20px;
+  }
+  
+  .list-movie {
+    margin-top: 20px;
+  }
+  
+  .list-movie h1 {
+    margin-bottom: 20px;
+  }
+  
+  .movie-list-editor {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+  }
+  
+  .movie-list-editor th,
+  .movie-list-editor td {
+    border: 1px solid #000000;
+  }
+  
+  .movie-list-editor th {
+    background-color: #aaaaaa;
+  }
+  
+  .movie-list-editor td {
+    padding: 10px 5px;
+  }
+  
+  .btn-add {
+    display: inline-block;
+    background-color: rgb(28, 184, 65);
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-edit {
+    display: inline-block;
+    background-color: rgb(66, 184, 221);
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-delete {
+    display: inline-block;
+    background-color: rgb(202, 60, 60);
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-cancel {
+    display: inline-block;
+    background-color: #e7e7e7;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  
